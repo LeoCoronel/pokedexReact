@@ -4,7 +4,7 @@ const Searching = () => {
     
     return (
         <div className="errorDiv">
-            <img className="errorImage" src="https://github.com/LeoCoronel/pokedexReact/tree/main/src/imgpokebola.svg" alt="Pokeball" />
+            <img className="errorImage" src="https://raw.githubusercontent.com/LeoCoronel/pokedexReact/704e70232dad44303ef34478b29248b2d93b603c/src/img/pokebola.svg" alt="Pokeball" />
             <p>Searching pokémons to catch</p>
         </div>
     )
