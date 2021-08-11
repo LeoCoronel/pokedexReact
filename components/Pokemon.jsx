@@ -11,7 +11,7 @@ const Pokemon = ({pokemon}) => {
                 <div className="card__header__title">
                     <p className="card__header__name">{pokemon.name}</p>
                     {pokemon.types.map((type, idx) => {
-                        return(<img key={idx} src={`./src/img/icons/${type.type.name}.svg`} title={type.type.name} className={`poke-type ${type.type.name}`} />)
+                        return(<img key={idx} src={`https://github.com/LeoCoronel/pokedexReact/tree/main/src/img/icons/${type.type.name}.svg`} title={type.type.name} className={`poke-type ${type.type.name}`} />)
                     })}
                 </div>
             </div>
