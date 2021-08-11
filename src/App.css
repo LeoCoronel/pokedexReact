@@ -119,6 +119,8 @@ button {
 .pagination button {
   border: none;
   background-color: rgb(247, 185, 22);
+  width: 30px;
+  height: 30px;
   border-radius: 50%;
   color: white;
   cursor: pointer;
